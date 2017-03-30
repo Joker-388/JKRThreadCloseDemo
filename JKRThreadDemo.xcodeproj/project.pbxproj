@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43D56CA11E8C9F8C00980858 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D56CA01E8C9F8C00980858 /* main.m */; };
+		43D56CA41E8C9F8C00980858 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D56CA31E8C9F8C00980858 /* AppDelegate.m */; };
+		43D56CA71E8C9F8C00980858 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D56CA61E8C9F8C00980858 /* ViewController.m */; };
+		43D56CAA1E8C9F8C00980858 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43D56CA81E8C9F8C00980858 /* Main.storyboard */; };
+		43D56CAC1E8C9F8C00980858 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43D56CAB1E8C9F8C00980858 /* Assets.xcassets */; };
+		43D56CAF1E8C9F8C00980858 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43D56CAD1E8C9F8C00980858 /* LaunchScreen.storyboard */; };
+		43D56CBA1E8C9F8D00980858 /* JKRThreadDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D56CB91E8C9F8D00980858 /* JKRThreadDemoTests.m */; };
+		43D56CC51E8C9F8D00980858 /* JKRThreadDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D56CC41E8C9F8D00980858 /* JKRThreadDemoUITests.m */; };
+		43D56CD41E8CA2DD00980858 /* NSObject+JKR_RunTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D56CD31E8CA2DD00980858 /* NSObject+JKR_RunTime.m */; };
+		43D56CDA1E8CA57500980858 /* JKRFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D56CD91E8CA57500980858 /* JKRFirstViewController.m */; };
+		43D56D1C1E8CE75100980858 /* JKRPort.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D56D1B1E8CE75100980858 /* JKRPort.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43D56CB61E8C9F8D00980858 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43D56C941E8C9F8C00980858 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43D56C9B1E8C9F8C00980858;
+			remoteInfo = JKRThreadDemo;
+		};
+		43D56CC11E8C9F8D00980858 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43D56C941E8C9F8C00980858 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43D56C9B1E8C9F8C00980858;
+			remoteInfo = JKRThreadDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		43D56C9C1E8C9F8C00980858 /* JKRThreadDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKRThreadDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43D56CA01E8C9F8C00980858 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		43D56CA21E8C9F8C00980858 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		43D56CA31E8C9F8C00980858 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		43D56CA51E8C9F8C00980858 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		43D56CA61E8C9F8C00980858 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		43D56CA91E8C9F8C00980858 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43D56CAB1E8C9F8C00980858 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43D56CAE1E8C9F8C00980858 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		43D56CB01E8C9F8D00980858 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43D56CB51E8C9F8D00980858 /* JKRThreadDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKRThreadDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43D56CB91E8C9F8D00980858 /* JKRThreadDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKRThreadDemoTests.m; sourceTree = "<group>"; };
+		43D56CBB1E8C9F8D00980858 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43D56CC01E8C9F8D00980858 /* JKRThreadDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKRThreadDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43D56CC41E8C9F8D00980858 /* JKRThreadDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKRThreadDemoUITests.m; sourceTree = "<group>"; };
+		43D56CC61E8C9F8D00980858 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43D56CD21E8CA2DD00980858 /* NSObject+JKR_RunTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JKR_RunTime.h"; sourceTree = "<group>"; };
+		43D56CD31E8CA2DD00980858 /* NSObject+JKR_RunTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JKR_RunTime.m"; sourceTree = "<group>"; };
+		43D56CD81E8CA57500980858 /* JKRFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKRFirstViewController.h; sourceTree = "<group>"; };
+		43D56CD91E8CA57500980858 /* JKRFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKRFirstViewController.m; sourceTree = "<group>"; };
+		43D56D1A1E8CE75100980858 /* JKRPort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKRPort.h; sourceTree = "<group>"; };
+		43D56D1B1E8CE75100980858 /* JKRPort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKRPort.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43D56C991E8C9F8C00980858 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43D56CB21E8C9F8D00980858 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43D56CBD1E8C9F8D00980858 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43D56C931E8C9F8C00980858 = {
+			isa = PBXGroup;
+			children = (
+				43D56C9E1E8C9F8C00980858 /* JKRThreadDemo */,
+				43D56CB81E8C9F8D00980858 /* JKRThreadDemoTests */,
+				43D56CC31E8C9F8D00980858 /* JKRThreadDemoUITests */,
+				43D56C9D1E8C9F8C00980858 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43D56C9D1E8C9F8C00980858 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43D56C9C1E8C9F8C00980858 /* JKRThreadDemo.app */,
+				43D56CB51E8C9F8D00980858 /* JKRThreadDemoTests.xctest */,
+				43D56CC01E8C9F8D00980858 /* JKRThreadDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43D56C9E1E8C9F8C00980858 /* JKRThreadDemo */ = {
+			isa = PBXGroup;
+			children = (
+				43D56CA21E8C9F8C00980858 /* AppDelegate.h */,
+				43D56CA31E8C9F8C00980858 /* AppDelegate.m */,
+				43D56CD21E8CA2DD00980858 /* NSObject+JKR_RunTime.h */,
+				43D56CD31E8CA2DD00980858 /* NSObject+JKR_RunTime.m */,
+				43D56CA51E8C9F8C00980858 /* ViewController.h */,
+				43D56CA61E8C9F8C00980858 /* ViewController.m */,
+				43D56D1A1E8CE75100980858 /* JKRPort.h */,
+				43D56D1B1E8CE75100980858 /* JKRPort.m */,
+				43D56CD81E8CA57500980858 /* JKRFirstViewController.h */,
+				43D56CD91E8CA57500980858 /* JKRFirstViewController.m */,
+				43D56CA81E8C9F8C00980858 /* Main.storyboard */,
+				43D56CAB1E8C9F8C00980858 /* Assets.xcassets */,
+				43D56CAD1E8C9F8C00980858 /* LaunchScreen.storyboard */,
+				43D56CB01E8C9F8D00980858 /* Info.plist */,
+				43D56C9F1E8C9F8C00980858 /* Supporting Files */,
+			);
+			path = JKRThreadDemo;
+			sourceTree = "<group>";
+		};
+		43D56C9F1E8C9F8C00980858 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43D56CA01E8C9F8C00980858 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		43D56CB81E8C9F8D00980858 /* JKRThreadDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				43D56CB91E8C9F8D00980858 /* JKRThreadDemoTests.m */,
+				43D56CBB1E8C9F8D00980858 /* Info.plist */,
+			);
+			path = JKRThreadDemoTests;
+			sourceTree = "<group>";
+		};
+		43D56CC31E8C9F8D00980858 /* JKRThreadDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				43D56CC41E8C9F8D00980858 /* JKRThreadDemoUITests.m */,
+				43D56CC61E8C9F8D00980858 /* Info.plist */,
+			);
+			path = JKRThreadDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43D56C9B1E8C9F8C00980858 /* JKRThreadDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43D56CC91E8C9F8D00980858 /* Build configuration list for PBXNativeTarget "JKRThreadDemo" */;
+			buildPhases = (
+				43D56C981E8C9F8C00980858 /* Sources */,
+				43D56C991E8C9F8C00980858 /* Frameworks */,
+				43D56C9A1E8C9F8C00980858 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JKRThreadDemo;
+			productName = JKRThreadDemo;
+			productReference = 43D56C9C1E8C9F8C00980858 /* JKRThreadDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43D56CB41E8C9F8D00980858 /* JKRThreadDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43D56CCC1E8C9F8D00980858 /* Build configuration list for PBXNativeTarget "JKRThreadDemoTests" */;
+			buildPhases = (
+				43D56CB11E8C9F8D00980858 /* Sources */,
+				43D56CB21E8C9F8D00980858 /* Frameworks */,
+				43D56CB31E8C9F8D00980858 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43D56CB71E8C9F8D00980858 /* PBXTargetDependency */,
+			);
+			name = JKRThreadDemoTests;
+			productName = JKRThreadDemoTests;
+			productReference = 43D56CB51E8C9F8D00980858 /* JKRThreadDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		43D56CBF1E8C9F8D00980858 /* JKRThreadDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43D56CCF1E8C9F8D00980858 /* Build configuration list for PBXNativeTarget "JKRThreadDemoUITests" */;
+			buildPhases = (
+				43D56CBC1E8C9F8D00980858 /* Sources */,
+				43D56CBD1E8C9F8D00980858 /* Frameworks */,
+				43D56CBE1E8C9F8D00980858 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43D56CC21E8C9F8D00980858 /* PBXTargetDependency */,
+			);
+			name = JKRThreadDemoUITests;
+			productName = JKRThreadDemoUITests;
+			productReference = 43D56CC01E8C9F8D00980858 /* JKRThreadDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43D56C941E8C9F8C00980858 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = tronsis_ios;
+				TargetAttributes = {
+					43D56C9B1E8C9F8C00980858 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					43D56CB41E8C9F8D00980858 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 43D56C9B1E8C9F8C00980858;
+					};
+					43D56CBF1E8C9F8D00980858 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 43D56C9B1E8C9F8C00980858;
+					};
+				};
+			};
+			buildConfigurationList = 43D56C971E8C9F8C00980858 /* Build configuration list for PBXProject "JKRThreadDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43D56C931E8C9F8C00980858;
+			productRefGroup = 43D56C9D1E8C9F8C00980858 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43D56C9B1E8C9F8C00980858 /* JKRThreadDemo */,
+				43D56CB41E8C9F8D00980858 /* JKRThreadDemoTests */,
+				43D56CBF1E8C9F8D00980858 /* JKRThreadDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43D56C9A1E8C9F8C00980858 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43D56CAF1E8C9F8C00980858 /* LaunchScreen.storyboard in Resources */,
+				43D56CAC1E8C9F8C00980858 /* Assets.xcassets in Resources */,
+				43D56CAA1E8C9F8C00980858 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43D56CB31E8C9F8D00980858 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43D56CBE1E8C9F8D00980858 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43D56C981E8C9F8C00980858 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43D56CDA1E8CA57500980858 /* JKRFirstViewController.m in Sources */,
+				43D56CA71E8C9F8C00980858 /* ViewController.m in Sources */,
+				43D56D1C1E8CE75100980858 /* JKRPort.m in Sources */,
+				43D56CA41E8C9F8C00980858 /* AppDelegate.m in Sources */,
+				43D56CD41E8CA2DD00980858 /* NSObject+JKR_RunTime.m in Sources */,
+				43D56CA11E8C9F8C00980858 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43D56CB11E8C9F8D00980858 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43D56CBA1E8C9F8D00980858 /* JKRThreadDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43D56CBC1E8C9F8D00980858 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43D56CC51E8C9F8D00980858 /* JKRThreadDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43D56CB71E8C9F8D00980858 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43D56C9B1E8C9F8C00980858 /* JKRThreadDemo */;
+			targetProxy = 43D56CB61E8C9F8D00980858 /* PBXContainerItemProxy */;
+		};
+		43D56CC21E8C9F8D00980858 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43D56C9B1E8C9F8C00980858 /* JKRThreadDemo */;
+			targetProxy = 43D56CC11E8C9F8D00980858 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		43D56CA81E8C9F8C00980858 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43D56CA91E8C9F8C00980858 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		43D56CAD1E8C9F8C00980858 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43D56CAE1E8C9F8C00980858 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43D56CC71E8C9F8D00980858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43D56CC81E8C9F8D00980858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43D56CCA1E8C9F8D00980858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JKRThreadDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = joker.JKRThreadDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		43D56CCB1E8C9F8D00980858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JKRThreadDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = joker.JKRThreadDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		43D56CCD1E8C9F8D00980858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JKRThreadDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = joker.JKRThreadDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKRThreadDemo.app/JKRThreadDemo";
+			};
+			name = Debug;
+		};
+		43D56CCE1E8C9F8D00980858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JKRThreadDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = joker.JKRThreadDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKRThreadDemo.app/JKRThreadDemo";
+			};
+			name = Release;
+		};
+		43D56CD01E8C9F8D00980858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JKRThreadDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = joker.JKRThreadDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JKRThreadDemo;
+			};
+			name = Debug;
+		};
+		43D56CD11E8C9F8D00980858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JKRThreadDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = joker.JKRThreadDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JKRThreadDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43D56C971E8C9F8C00980858 /* Build configuration list for PBXProject "JKRThreadDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43D56CC71E8C9F8D00980858 /* Debug */,
+				43D56CC81E8C9F8D00980858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43D56CC91E8C9F8D00980858 /* Build configuration list for PBXNativeTarget "JKRThreadDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43D56CCA1E8C9F8D00980858 /* Debug */,
+				43D56CCB1E8C9F8D00980858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43D56CCC1E8C9F8D00980858 /* Build configuration list for PBXNativeTarget "JKRThreadDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43D56CCD1E8C9F8D00980858 /* Debug */,
+				43D56CCE1E8C9F8D00980858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43D56CCF1E8C9F8D00980858 /* Build configuration list for PBXNativeTarget "JKRThreadDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43D56CD01E8C9F8D00980858 /* Debug */,
+				43D56CD11E8C9F8D00980858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43D56C941E8C9F8C00980858 /* Project object */;
+}
